@@ -20,7 +20,7 @@ dependencies {
 ```
 
 
-###Configuración
+### Configuración
 
 Dentro del modulo en `values/string.xml` añadir los siguiente, pero remplaza los valores
 
@@ -65,4 +65,6 @@ Ahora solamente queda invocar la ventana About this, des de la app, en el archiv
         app:title="@string/pref_about_header" />
 ```
 
+### Otros
+El módulo tambien tiene los textos traducidos en español
 
