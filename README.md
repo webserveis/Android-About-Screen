@@ -24,7 +24,7 @@ dependencies {
 
 Dentro del modulo en `values/string.xml` añadir los siguiente, pero remplaza los valores
 
- - %nombre@email.com Email feedbak 
+ - `%nombre@email.com` Email feedbak 
  - %privacyurl Enlace de licencia de uso
  - %twitter_user_name Nombre de usuario en twitter
  - %twitter_link Enlace twitter, `https://twitter/<user_name`
