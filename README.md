@@ -1,7 +1,7 @@
 # Android About Screen 
  Plantilla para crear sección Todo sobre la app
 
-
+<img src="screenshot1.jpg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="320" />
 
 
 ### Instalación
