@@ -8,10 +8,10 @@
 
 Copiar la carpeta aboutscreen en la ralz del proyecto
 
-En archivo añadir el modulo settings.gradle
+En archivo settings.gradle añadir el módulo 
 `include ':aboutscreen'`
 
-En gradle a nivel de aplicación añadir
+En app.gradle a nivel de aplicación añadir
 ```
 dependencies {
     ...
