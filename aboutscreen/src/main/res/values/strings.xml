@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Info Preferences -->
+    <string name="pref_about_header">About this</string>
+
+    <string name="action_app_info">App info screen</string>
+
+    <string name="pref_about_version_title">App version</string>
+
+    <string name="pref_about_license_title">License &amp; Terms of use</string>
+    <string name="pref_about_license_summary">License details and privacy policy</string>
+
+    <string name="pref_about_open_license_title">Open source license</string>
+    <string name="pref_about_open_license_summary">View open source licenses</string>
+
+    <string name="pref_about_send_feedback_title">Send Feedback</string>
+    <string name="pref_about_send_feedback_summary">Help us make app better</string>
+
+    <string name="pref_about_send_feedback_header">Feedback with</string>
+    <string name="pref_about_send_feedback_error">Need an email app to send feedback</string>
+
+    <string name="pref_about_others_apps_title">View other apps</string>
+    <string name="pref_about_others_apps_summary">Discover all my apps</string>
+
+    <string name="pref_about_rate_app_title">Rate this App</string>
+    <string name="pref_about_rate_app_summary">Your opinion matters us!</string>
+
+    <string name="pref_about_dev_developer_label">Developer</string>
+
+    <string name="pref_about_dev_email_title">Contact via email</string>
+
+    <string name="pref_about_dev_twitter_summary">Follow me on Twitter</string>
+
+    <string name="pref_about_dev_google_play_title">Google-play dev page</string>
+    <string name="pref_about_dev_google_play_summary">Developer page on Google play</string>
+
+    <string name="pref_about_dev_web_title">Developer web page</string>
+    <string name="pref_about_dev_web_summary">Visit my personal development blog</string>
+
+    <string name="action_share">Share with</string>
+    <string name="action_share_description">Hey, I would like to share the following app: %s</string>
+
+</resources>

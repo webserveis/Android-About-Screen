@@ -1,0 +1,105 @@
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.webserveis.app.aboutscreen.PreferenceAboutHeader
+        android:key="pref_app_name"
+        android:layout="@layout/preference_about_header"
+        android:persistent="false" />
+
+    <Preference
+        android:icon="@drawable/ic_feedback_24dp"
+        android:key="pref_send_feedback"
+        android:summary="@string/pref_about_send_feedback_summary"
+        android:title="@string/pref_about_send_feedback_title"
+        app:allowDividerAbove="true"
+        app:iconSpaceReserved="true" />
+    <Preference
+        android:icon="@drawable/ic_star_black_24dp"
+        android:key="pref_rate_app"
+        android:summary="@string/pref_about_rate_app_summary"
+        android:title="@string/pref_about_rate_app_title"
+        app:iconSpaceReserved="true">
+
+    </Preference>
+
+    <Preference
+        android:icon="@drawable/ic_handshake_24dp"
+        android:summary="@string/pref_about_license_summary"
+        android:title="@string/pref_about_license_title"
+        app:iconSpaceReserved="true">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/about_privacy_link" />
+    </Preference>
+
+    <Preference
+        android:icon="@drawable/ic_quill_ink"
+        android:key="pref_open_source_license"
+        android:summary="@string/pref_about_open_license_summary"
+        android:title="@string/pref_about_open_license_title"
+        app:iconSpaceReserved="true" />
+
+    <PreferenceCategory
+        android:title="@string/pref_about_dev_developer_label"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:icon="@drawable/ic_twitter_24dp"
+            android:summary="@string/pref_about_dev_twitter_summary"
+            android:title="@string/about_twitter_username"
+            app:iconSpaceReserved="true">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/about_twitter_link" />
+        </Preference>
+
+        <Preference
+            android:icon="@drawable/ic_widgets_24dp"
+            android:summary="@string/pref_about_others_apps_summary"
+            android:title="@string/pref_about_others_apps_title"
+            app:iconSpaceReserved="true">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/about_more_apps_link" />
+        </Preference>
+
+        <Preference
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_shop_24"
+            android:summary="@string/pref_about_dev_google_play_summary"
+            android:title="@string/pref_about_dev_google_play_title"
+            app:iconSpaceReserved="true">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/about_dev_google_play_profile_link" />
+        </Preference>
+
+        <Preference
+            android:icon="@drawable/ic_webpage_24dp"
+            android:summary="@string/pref_about_dev_web_summary"
+            android:title="@string/pref_about_dev_web_title"
+            app:iconSpaceReserved="true">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/about_developer_web_page_link" />
+        </Preference>
+
+        <Preference
+            android:icon="@drawable/ic_email_24dp"
+            android:summary="@string/about_dev_email"
+            android:title="@string/pref_about_dev_email_title"
+            app:iconSpaceReserved="true">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/about_dev_email_link" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="pref_copyright"
+        android:layout="@layout/preference_about_footer"
+        app:allowDividerAbove="true"
+        app:iconSpaceReserved="false" />
+
+</androidx.preference.PreferenceScreen>

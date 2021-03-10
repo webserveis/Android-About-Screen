@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Info Preferences -->
+    <string name="pref_about_header">Sobre la app</string>
+
+    <string name="action_app_info">Ventana App info</string>
+
+    <string name="pref_about_version_title">Versión</string>
+
+    <string name="pref_about_license_title">licencia y Condiciones de uso</string>
+    <string name="pref_about_license_summary">Detalles de licencia y política de privacidad</string>
+
+    <string name="pref_about_open_license_title">Licencias Open Source</string>
+    <string name="pref_about_open_license_summary">Ver licencias de código abierto</string>
+
+    <string name="pref_about_send_feedback_title">Enviar reporte</string>
+    <string name="pref_about_send_feedback_summary">Ayúdanos a mejorar la aplicación</string>
+
+    <string name="pref_about_send_feedback_header">Reportar con</string>
+    <string name="pref_about_send_feedback_error">Se requiere una app de email para enviar reportes</string>
+
+    <string name="pref_about_others_apps_title">Ver otras aplicaciones</string>
+    <string name="pref_about_others_apps_summary">Descubre todas mis aplicaciones</string>
+
+    <string name="pref_about_rate_app_title">Califica esta App</string>
+    <string name="pref_about_rate_app_summary">¡Tu opinión nos importa!</string><!-- Rate and comment in the play store-->
+
+    <string name="pref_about_dev_developer_label">Desarrollador</string>
+
+    <string name="pref_about_dev_email_title">Contacto por correo electrónico</string>
+
+    <string name="pref_about_dev_twitter_summary">Sigueme en Twitter</string>
+
+    <string name="pref_about_dev_google_play_title">Gplay webpage</string>
+    <string name="pref_about_dev_google_play_summary">Página de desarrollador en Google Play</string>
+
+    <string name="pref_about_dev_web_title">Página web del desarrollador</string>
+    <string name="pref_about_dev_web_summary">Visita mi blog de desarrollo personal</string>
+
+    <string name="action_share">Share with</string>
+    <string name="action_share_description">Oye, me gustaria compartir la siguiente app: %s</string>
+
+</resources>
