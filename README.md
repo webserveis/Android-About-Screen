@@ -9,7 +9,7 @@
 Copiar la carpeta aboutscreen en la ralz del proyecto
 
 En archivo añadir el modulo settings.gradle
-```include ':aboutscreen'``
+`include ':aboutscreen'`
 
 En gradle a nivel de aplicación añadir
 ```
